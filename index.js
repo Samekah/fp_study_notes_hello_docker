@@ -5,7 +5,7 @@ const ui = require('readline').createInterface({
 
 ui.question('Hi there! What is your name?\n\n', input => {
     const message = sayHello(input)
-    console.log(message)
+    console.log("\n" + message + "\nWelcome to Futureproof!")
     ui.close();
 })
 
